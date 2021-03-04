@@ -23,7 +23,12 @@ public class GeneralSet<E> {
     public Set<E> createWithArray(E[] arr){
         Set<E> B = Set.<E>of(arr);
         return B;
+    }
 
+    public Set<E> createWithAddArray(E[] arr){
+        Set<E> set1 = new HashSet();
+        set1.addAll(Arrays.asList(arr));
+        return set1;
     }
 
 }
