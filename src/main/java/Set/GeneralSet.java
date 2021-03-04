@@ -1,19 +1,29 @@
 package Set;
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class GeneralSet<E> {
+    Integer[] arrB = {1, 4, 8, 10, 93};
 
-    public Set<E> createHashSet() {
+    public Set<E> createWithAdd() {
         // Set demonstration using HashSet
         Set<String> hash_Set = new HashSet<String>();
 
-        hash_Set.add("egy");
-        hash_Set.add("kető");
-        hash_Set.add("Geeks");
-        hash_Set.add("Example");
-        hash_Set.add("Set");
+        hash_Set.add("one");
+        hash_Set.add("two");
+        hash_Set.add("bal");
+        hash_Set.add("jobb");
+        hash_Set.add("egyedem-megyedem");
 
         System.out.println(hash_Set);
         return (Set<E>) hash_Set;
     }
+
+
+    public Set<E> createWithArray(E[] arr){
+        Set<E> B = Set.<E>of(arr);
+        return B;
+
+    }
+
 }
