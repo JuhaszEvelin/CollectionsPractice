@@ -3,9 +3,14 @@ package Set;
 public class Main {
 
     public static void main(String[] args) {
-        showGeneralSet();
-        showSortedSet();
+        //showGeneralSet();
+        //showSortedSet();
+        showNavigableSet();
+    }
 
+    private static void showNavigableSet() {
+        NavigableSetExample nse = new NavigableSetExample();
+        nse.example();
     }
 
     private static void showSortedSet() {
