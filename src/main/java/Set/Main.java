@@ -1,11 +1,20 @@
 package Set;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
         //showGeneralSet();
         //showSortedSet();
-        showNavigableSet();
+        //showNavigableSet();
+       // showTreeSet();
+
+    }
+
+    private static void showTreeSet() {
+        TreeSetExample tse = new TreeSetExample();
+        tse.example();
     }
 
     private static void showNavigableSet() {
