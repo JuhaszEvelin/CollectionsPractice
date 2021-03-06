@@ -9,7 +9,13 @@ public class Main {
         //showSortedSet();
         //showNavigableSet();
        // showTreeSet();
+        showHashSet();
 
+    }
+
+    private static void showHashSet() {
+        HashSetExample hse = new HashSetExample();
+        hse.example();
     }
 
     private static void showTreeSet() {
