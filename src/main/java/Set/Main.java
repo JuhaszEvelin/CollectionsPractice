@@ -9,8 +9,14 @@ public class Main {
         //showSortedSet();
         //showNavigableSet();
        // showTreeSet();
-        showHashSet();
+        // showHashSet();
+        showQueueExample();
 
+    }
+
+    private static void showQueueExample() {
+        QueueExample qe = new QueueExample();
+        qe.example();
     }
 
     private static void showHashSet() {
