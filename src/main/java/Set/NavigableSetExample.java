@@ -6,8 +6,8 @@ import java.util.TreeSet;
 
 public class NavigableSetExample<E> {
 
-    NavigableSet<Integer> set = new TreeSet();
-    Integer[] numbers = {1, 2, 5, 7, 11};
+    public NavigableSet<Integer> set = new TreeSet();
+    public Integer[] numbers = {1, 2, 5, 7, 11};
 
     public void example(){
         set.addAll(Arrays.asList(numbers));

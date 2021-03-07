@@ -5,8 +5,8 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class SortedSetExample<E> {
-    Integer[] numbers = {1, 2, 5, 7, 11};
-    SortedSet<Integer> set = new TreeSet();
+    public Integer[] numbers = {1, 2, 5, 7, 11};
+    public SortedSet<Integer> set = new TreeSet();
 
     public void example(){
         set.addAll(Arrays.asList(numbers));

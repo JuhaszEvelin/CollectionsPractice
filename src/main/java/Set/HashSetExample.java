@@ -4,9 +4,9 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class HashSetExample {
-     HashSet<String> setA=new HashSet<String>();
-     List<String> fruits = new ArrayList(Arrays.asList("citrom", "narancs", "grapefruit"));
-    HashSet<String> setB=new HashSet(fruits);
+    public HashSet<String> setA=new HashSet<String>();
+    public  List<String> fruits = new ArrayList(Arrays.asList("citrom", "narancs", "grapefruit"));
+    public HashSet<String> setB=new HashSet(fruits);
 
      public void example(){
          //adding elements

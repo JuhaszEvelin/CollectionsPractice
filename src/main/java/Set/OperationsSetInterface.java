@@ -6,8 +6,8 @@ import java.util.Set;
 public class OperationsSetInterface<E> {
     Integer[] arrA = {1, 5, 9, 11, 8};
     Integer[] arrB = {1, 4, 8, 10, 93};
-    Set<?> A = Set.<Integer>of(arrA);
-    Set<?> B = Set.<Integer>of(arrB);
+    public Set<?> A = Set.<Integer>of(arrA);
+    public Set<?> B = Set.<Integer>of(arrB);
 
 
     /**

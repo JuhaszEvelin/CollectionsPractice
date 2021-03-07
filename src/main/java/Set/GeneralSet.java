@@ -3,7 +3,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class GeneralSet<E> {
-    Integer[] arrB = {1, 4, 8, 10, 93};
+    public Integer[] arrB = {1, 4, 8, 10, 93};
 
     public Set<E> createWithAdd() {
         // Set demonstration using HashSet

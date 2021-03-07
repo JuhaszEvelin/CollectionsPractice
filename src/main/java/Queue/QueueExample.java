@@ -1,4 +1,4 @@
-package Set;
+package Queue;
 import java.util.*;
 
 public class QueueExample {

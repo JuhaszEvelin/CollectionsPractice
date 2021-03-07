@@ -1,6 +1,5 @@
-package Set;
-
-import java.util.Arrays;
+import Queue.QueueExample;
+import Set.*;
 
 public class Main {
 

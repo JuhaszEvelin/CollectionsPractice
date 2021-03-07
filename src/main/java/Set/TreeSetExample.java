@@ -5,8 +5,8 @@ import java.util.TreeSet;
 
 public class TreeSetExample {
 
-    String[] str = {"apple", "tree", "bloom"};
-    Integer[] x = {1, 2, 5, 4};
+    public String[] str = {"apple", "tree", "bloom"};
+    public Integer[] x = {1, 2, 5, 4};
 
     public void example(){
         TreeSet ts = new TreeSet();
